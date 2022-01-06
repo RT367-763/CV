@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contacts</title>
+</head>
+
+<body>
+  <ul><a href="mailto:1985rthomas@gmail.com">Email</a></ul>
+  <ul><a href="tel:+61421421111">P: 0421 421 111</a></ul>
+  <ul><a href="index.html">Website</a></ul>
+  <hr>
+  <form action="mailto:testing@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Enter you name:</label>
+    <input type="text"><br>
+    <label for="email">Enter you email:</label>
+    <input type="email" name="Email" placeholder="ryan@example.com"><br>
+    <label for="DOB">Date of Birth:</label>
+    <input type="date" id="start" name="DOB" value="2018-07-22" min="1901-01-01" max="2022-01-06"><br>
+    <label for="consent">Do you want to join my mailing list?</label>
+    <input type="checkbox" value="Mailinglist"><br><br>
+    <label for="Profile">Upload your profile pic</label>
+    <input type="file"
+    id="profile" name="profile pic"
+    accept="image/png, image/jpeg"><br>
+    <textarea name="Your message" rows="8" cols="30"  placeholder="Your message"></textarea><br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
